@@ -1,461 +1,695 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Arch Angel Literature</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
-     <!-- Font Awesome -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
-     <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/mdb.min.css">
-     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/custom.css">
-</head>
-<body class="fixed-sn black-skin">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-    <!--Double navigation-->
-    <header>
-      <!-- Sidebar navigation -->
-      <div id="slide-out" class="side-nav sn-bg-4 fixed">
-        <ul class="custom-scrollbar">
-          <!-- Logo -->
-          <li>
-            <div class="logo-wrapper waves-light">
-              <a href="#"><img src="img/books_quill.png" class="img-fluid flex-center"></a>
-            </div>
-          </li>
-          <!--/. Logo -->
-          <!--Social-->
-          <li>
-            <ul class="social">
-              <li><a href="#" class="icons-sm fb-ic"><i class="fab fa-facebook-f"> </i></a></li>
-              <li><a href="#" class="icons-sm pin-ic"><i class="fab fa-pinterest"> </i></a></li>
-              <li><a href="#" class="icons-sm gplus-ic"><i class="fab fa-google-plus-g"> </i></a></li>
-              <li><a href="#" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a></li>
-            </ul>
-          </li>
-          <!--/Social-->
-          <!--Search Form-->
-          <li>
-            <form class="search-form" role="search">
-              <div class="form-group md-form mt-0 pt-1 waves-light">
-                <input type="text" class="form-control" placeholder="Search">
-              </div>
-            </form>
-          </li>
-          <!--/.Search Form-->
-          <!-- Side navigation links -->
-          <li>
-            <ul class="collapsible collapsible-accordion">
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> Submit blog<i
-                    class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul class="list-unstyled">
-                    <li><a href="#" class="waves-effect">Submit listing</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Registration form</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-hand-pointer"></i> Instruction<i
-                    class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul class="list-unstyled">
-                    <li><a href="#" class="waves-effect">For bloggers</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">For authors</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-eye"></i> About<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul class="list-unstyled">
-                    <li><a href="#" class="waves-effect">Introduction</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Monthly meetings</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li><a class="collapsible-header waves-effect arrow-r"><i class="far fa-envelope"></i> Contact me<i class="fas fa-angle-down rotate-icon"></i></a>
-                <div class="collapsible-body">
-                  <ul class="list-unstyled">
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">FAQ</a>
-                    </li>
-                    <li><a href="#" class="waves-effect">Write a message</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <!--/. Side navigation links -->
+<head>
+
+  <!--- basic page needs
+    ================================================== -->
+  <meta charset="utf-8">
+  <title>Arch Angel Literature</title>
+  <meta name="description" content="My awesome Portfolio!">
+  <meta name="author" content="">
+
+  <!-- mobile specific metas
+    ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  <!-- script
+    ================================================== -->
+  <script src="js/modernizr.js" type="e1e9095c5ce694016821c45b-text/javascript"></script>
+  <script src="js/pace.min.js" type="e1e9095c5ce694016821c45b-text/javascript"></script>
+
+  <!-- favicons
+    ================================================== -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+  <!-- header
+    ================================================== -->
+  <header class="s-header">
+    <div class="header-logo">
+      <a class="site-logo" href="/">
+        <img src="images/bomber.png" alt="Homepage">
+      </a>
+    </div>
+
+    <nav class="header-nav">
+
+      <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+      <div class="header-nav__content">
+        <h3>Arch Angel Literature</h3>
+
+        <ul class="header-nav__list">
+          <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+          <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+          <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+          <li><a class="smoothscroll" href="#works" title="works">Projects</a></li>
+          <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
         </ul>
-        <div class="sidenav-bg mask-strong"></div>
-      </div>
-      <!--/. Sidebar navigation -->
-      <!-- Navbar -->
-      <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
-        <!-- SideNav slide-out button -->
-        <div class="float-left">
-          <a href="#" data-activates="slide-out" class="button-collapse black-text"><i class="fas fa-bars"></i></a>
+
+  
+        <ul class="header-nav__social">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f white-text"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter white-text"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram white-text"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-pinterest white-text"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-dribbble white-text"></i></a>
+          </li>
+        </ul>
+
+      </div> <!-- end header-nav__content -->
+
+    </nav> <!-- end header-nav -->
+
+    <a class="header-menu-toggle" href="#0">
+      <span class="header-menu-text">Menu</span>
+      <span class="header-menu-icon"></span>
+      <!-- <img src="images/hand-grenade.png" alt="" class="header-menu-icon"> -->
+    </a>
+
+  </header> <!-- end s-header -->
+
+
+  <!-- home
+    ================================================== -->
+  <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true"
+    data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    <div class="home-content">
+
+      <div class="row home-content__main">
+
+        <h3>Welcome To My Portfolio</h3>
+
+        <h1>
+          I am a writer <br>
+          who specializes in <br>
+          writing astonishing story <br>
+          titles for my people.
+        </h1>
+
+        <div class="home-content__buttons">
+          <a href="#contact" class="smoothscroll btn btn--stroke">
+            Start a Project
+          </a>
+          <a href="#about" class="smoothscroll btn btn--stroke">
+            More About Me
+          </a>
         </div>
-        <!-- Breadcrumb-->
-        <div class="breadcrumb-dn mr-auto">
-          <p>
-            <marquee behavior="scroll" direction="left" class="header-text text-secondary">Arch Angel Literature
-            </marquee>
+
+      </div>
+
+      <div class="home-content__scroll">
+        <a href="#about" class="scroll-link smoothscroll">
+          <span>Scroll Down</span>
+        </a>
+      </div>
+
+      <div class="home-content__line"></div>
+
+    </div> <!-- end home-content -->
+
+
+    <ul class="home-social">
+      <li>
+        <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+      </li>
+      <li>
+        <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+      </li>
+      <li>
+        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+      </li>
+      <li>
+        <a href="#0"><i class="fab fa-pinterest" aria-hidden="true"></i><span>Pintrest</span></a>
+      </li>
+      <li>
+        <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+      </li>
+    </ul>
+    <!-- end home-social -->
+
+  </section> <!-- end s-home -->
+
+
+  <!-- about
+    ================================================== -->
+  <section id='about' class="s-about">
+
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+      <div class="col-full">
+        <!-- <h3 class="subhead subhead--dark">Hello There</h3> -->
+        <h1 class="display-1 display-1--light">Well Rounded Writer</h1>
+      </div>
+    </div> <!-- end section-header -->
+
+    <div class="row about-desc" data-aos="fade-up">
+      <div class="col-full">
+        <p>
+          My name is Gavriel Israel Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, veritatis.
+        </p>
+      </div>
+    </div> <!-- end about-desc -->
+
+    <div class="about__line"></div>
+
+  </section> <!-- end s-about -->
+
+
+  <!-- services
+    ================================================== -->
+  <section id='services' class="s-services">
+
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Process Of Creation</h3>
+        <h1 class="display-2">Building Blocks</h1>
+      </div>
+    </div> <!-- end section-header -->
+
+    <div class="row services-list block-1-2 block-tab-full">
+
+      <div class="col-block service-item" data-aos="fade-up">
+        <div class="service-icon">
+          <i class="icon-paint-brush"></i>
+        </div>
+        <div class="service-text">
+          <h3 class="h2">Planning</h3>
+          <p>Create an outline of the site content along with a functional flow chart. Document programmatic flow and
+            gather general information including samples, style guides, images and graphic files.
           </p>
         </div>
-        <ul class="nav navbar-nav nav-flex-icons ml-auto">
-          <li class="nav-item">
-            <a class="nav-link"><i class="fas fa-envelope"></i> <span class="clearfix d-none d-sm-inline-block">Contact</span></a>
-          </li>
-         
-          <li class="nav-item">
-            <a class="nav-link"><i class="fas fa-user"></i> <span class="clearfix d-none d-sm-inline-block">Account</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-      </nav>
-      <!-- /.Navbar -->
-    </header>
-    <!--/.Double navigation-->
+      </div>
 
-    <!--Main layout-->
-    <main>
-
-      <div class="container-fluid text-center">
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-md-12 mb-3">
-
-            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s3.png?raw=true"
-              class="img-fluid z-depth-1"
-              alt="Responsive image" style="width:1231px; height:534px;">
-
-          </div>
-          <!-- Grid column -->
-
+      <div class="col-block service-item" data-aos="fade-up">
+        <div class="service-icon">
+          <i class="icon-group"></i>
         </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-12 mb-3">
-
-            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s2.jpg?raw=true"
-              class="img-fluid z-depth-1" alt="Responsive image" style="width:390px; height:260px;">
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-3">
-
-            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s2.jpg?raw=true"
-              class="img-fluid z-depth-1" alt="Responsive image" style="width:390px; height:260px;">
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-lg-4 col-md-6 mb-3">
-
-            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/s2.jpg?raw=true"
-              class="img-fluid z-depth-1" alt="Responsive image" style="width:390px; height:260px;">
-
-          </div>
-          <!-- Grid column -->
-
+        <div class="service-text">
+          <h3 class="h2">Design</h3>
+          <p>Create color layouts based on approved ‘wireframe’ layouts. Research stock photography and develop
+            graphics. Create style guide of colors and fonts for site development.
+          </p>
         </div>
-        <!-- Grid row -->
+      </div>
 
-        <!-- Grid row -->
-        <div class="row">
-
-          <!-- Grid column -->
-          <div class="col-md-6 mb-3">
-
-            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/slavery.jpg?raw=true"
-              class="img-fluid z-depth-1" alt="Responsive image" style="width: 601px; height: 400px;">
-
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-6 mb-3">
-
-            <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/slavery.jpg?raw=true"
-              class="img-fluid z-depth-1" alt="Responsive image" style="width: 601px; height: 400px;">
-
-          </div>
-          <!-- Grid column -->
-
+      <div class="col-block service-item" data-aos="fade-up">
+        <div class="service-icon">
+          <i class="icon-megaphone"></i>
         </div>
-        <!-- Grid row -->
+        <div class="service-text">
+          <h3 class="h2">Content Writing</h3>
+          <p>Content writing and compiling usually overlaps with other stages of website creation, and its role can’t be
+            underestimated. Content writing involves creation of headlines, text editing, writing new text, compiling the
+            existing text, etc...
+          </p>
+        </div>
+      </div>
 
-        <!-- Section: Products v.4 -->
-        <section class="text-center my-5">
+      <div class="col-block service-item" data-aos="fade-up">
+        <div class="service-icon">
+          <i class="icon-earth"></i>
+        </div>
+        <div class="service-text">
+          <h3 class="h2">Coding</h3>
+          <p>The home page is usually created first, and then all sub-pages are added, according to the website
+            hierarchy that was previously created in the form of a sitemap. All static page elements that were designed
+            during the layout creation will be created and tested.
+          </p>
+        </div>
+      </div>
 
-            <!-- Section heading -->
-            <h2 class="h1-responsive font-weight-bold text-center my-5">Bestsellers</h2>
-            <!-- Section description -->
-            <p class="grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi.</p>
+    </div> <!-- end services-list -->
 
-            <!-- Grid row -->
-            <div class="row">
+  </section> <!-- end s-services -->
 
-                <!-- Grid column -->
-                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-                    <!-- Collection card -->
-                    <div class="card collection-card z-depth-1-half">
-                        <!-- Card image -->
-                        <div class="view zoom">
-                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
-                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
-                            <div class="stripe dark">
-                                <a>
-                                    <p>Israelites
-                                        <i class="fas fa-angle-right"></i>
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Card image -->
-                    </div>
-                    <!-- Collection card -->
-                </div>
-                <!-- Grid column -->
 
-                <!-- Grid column -->
-                <div class="col-lg-3 col-md-6 mb-lg-0 mb-4">
-                    <!-- Collection card -->
-                    <div class="card collection-card z-depth-1-half">
-                        <!-- Card image -->
-                        <div class="view zoom">
-                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
-                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
-                            <div class="stripe light">
-                                <a>
-                                    <p>Israelites
-                                        <i class="fas fa-angle-right"></i>
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Card image -->
-                    </div>
-                    <!-- Collection card -->
-                </div>
-                <!-- Grid column -->
+  <!-- works
+    ================================================== -->
+  <section id='works' class="s-works">
 
-                <!-- Grid column -->
-                <div class="col-lg-3 col-md-6 mb-md-0 mb-4">
-                    <!-- Collection card -->
-                    <div class="card collection-card z-depth-1-half">
-                        <!-- Card image -->
-                        <div class="view zoom">
-                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
-                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
-                            <div class="stripe dark">
-                                <a>
-                                    <p>Israelites
-                                        <i class="fas fa-angle-right"></i>
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Card image -->
-                    </div>
-                    <!-- Collection card -->
-                </div>
-                <!-- Grid column -->
+    <div class="intro-wrap">
 
-                <!-- Fourth column -->
-                <div class="col-lg-3 col-md-6 mb-md-0 mb-4">
-                    <!-- Collection card -->
-                    <div class="card collection-card z-depth-1-half">
-                        <!-- Card image -->
-                        <div class="view zoom">
-                            <img src="https://pbs.twimg.com/media/CzFw1O0XAAETZPD.jpg"
-                                class="img-fluid" alt="" style="width: 285px; height: 428px;">
-                            <div class="stripe light">
-                                <a>
-                                    <p>Israelites
-                                        <i class="fas fa-angle-right"></i>
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Card image -->
-                    </div>
-                    <!-- Collection card -->
-                </div>
-                <!-- Fourth column -->
+      <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">12 Tribes</h3>
+          <h1 class="display-2 display-2--light">All Praises To The Most High!</h1>
+        </div>
+      </div> <!-- end section-header -->
+
+    </div> <!-- end intro-wrap -->
+
+    <div class="row works-content">
+      <div class="col-full masonry-wrap">
+        <div class="masonry">
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+
+              <div class="item-folio__thumb">
+                <a href="https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true"
+                  class="thumb-link" title="!2 Tribes"
+                  data-size="1050x700">
+                  <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true"
+                    srcset="https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true 2x"
+                    alt="" styles="width: 100%;">
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title">
+                  Barak
+                </h3>
+                <p class="item-folio__cat">
+                  !2 Tribes Of Israel
+                </p>
+              </div>
+
+              <a href="#" class="item-folio__project-link" title="Project link">
+                <i class="fas fa-link"></i>
+              </a>
+
+              <div class="item-folio__caption">
+
+              </div>
 
             </div>
-            <!-- Grid row -->
+          </div> <!-- end masonry__brick -->
 
-        </section>
-        <!-- Section: Products v.4 -->
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
 
+              <div class="item-folio__thumb">
+                <a href="https://github.com/cwilliams3579/Choosen-uploads/blob/master/Barak.jpeg?raw=true"
+                  class="thumb-link" title="Barak"
+                  data-size="1050x700">
+                  <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/Barak.jpeg?raw=true"
+                    srcset="https://github.com/cwilliams3579/Choosen-uploads/blob/master/Barak.jpeg?raw=true 1x,
+                    https://github.com/cwilliams3579/Choosen-uploads/blob/master/Barak.jpeg?raw=true 2x" alt="">
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title">
+                  Barak
+                </h3>
+                <p class="item-folio__cat">
+                  12 Twelve Tribes Of Israel
+                </p>
+              </div>
+
+              <a href="#" class="item-folio__project-link" title="Project link">
+                <i class="fas fa-link"></i>
+              </a>
+
+              <div class="item-folio__caption"></div>
+
+            </div>
+          </div> <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+
+              <div class="item-folio__thumb">
+                <a href="https://github.com/cwilliams3579/Choosen-uploads/blob/master/chenzira.jpg?raw=true" target="_blank" class="thumb-link"
+                  title="Chenzira"
+                  data-size="1050x700">
+                  <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/chenzira.jpg?raw=true"
+                    srcset="https://github.com/cwilliams3579/Choosen-uploads/blob/master/chenzira.jpg?raw=true 1x,
+                    https://github.com/cwilliams3579/Choosen-uploads/blob/master/chenzira.jpg?raw=true 2x" alt="">
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title">
+                  Chenzira
+                </h3>
+                <p class="item-folio__cat">
+                  12 Tribes Of Israel
+                </p>
+              </div>
+
+              <a href="#" class="item-folio__project-link" title="Project link">
+                <i class="fas fa-link"></i>
+              </a>
+
+              <div class="item-folio__caption"></div>
+
+            </div>
+          </div> <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+
+              <div class="item-folio__thumb">
+                <a href="https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true" class="thumb-link" title="Grow Green"
+                  data-size="1050x700">
+                  <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true"
+                    srcset="https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true 1x, https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true 2x" alt="" styles="width: 100%;">
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title">
+                  Raanan 
+                </h3>
+                <p class="item-folio__cat">
+                  12 Tribes Of Israel
+                </p>
+              </div>
+
+              <a href="#" class="item-folio__project-link" title="Project link">
+                <i class="fas fa-link"></i>
+              </a>
+
+              <div class="item-folio__caption"></div>
+
+            </div>
+          </div> <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+
+              <div class="item-folio__thumb">
+                <a href="https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true" class="thumb-link" title="12 Tribes"
+                  data-size="1050x700">
+                  <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true"
+                    srcset="https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true 1x, https://github.com/cwilliams3579/Choosen-uploads/blob/master/12Tribes.jpg?raw=true 2x" alt="12 Tribes">
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title">
+                  12 Tribes
+                </h3>
+                <p class="item-folio__cat">
+                  12 Tribes Of Israel
+                </p>
+              </div>
+
+              <a href="#" class="item-folio__project-link" title="Project link">
+                <i class="fas fa-link"></i>
+              </a>
+
+              <div class="item-folio__caption"></div>
+
+            </div>
+          </div> <!-- end masonry__brick -->
+
+          <div class="masonry__brick" data-aos="fade-up">
+            <div class="item-folio">
+
+              <div class="item-folio__thumb">
+                <a href="https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true" class="thumb-link" title="Raanan"
+                  data-size="1050x700">
+                  <img src="https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true"
+                    srcset="https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true 1x, https://github.com/cwilliams3579/Choosen-uploads/blob/master/raanan.jpeg?raw=true 2x" alt="Raanan">
+                </a>
+              </div>
+
+              <div class="item-folio__text">
+                <h3 class="item-folio__title">
+                  Raanan
+                </h3>
+                <p class="item-folio__cat">
+                  12 Tribes Of Israel
+                </p>
+              </div>
+
+              <a href="#" class="item-folio__project-link" title="Project link">
+                <i class="fas fa-link"></i>
+              </a>
+
+              <div class="item-folio__caption"></div>
+
+            </div>
+          </div> <!-- end masonry__brick -->
+
+        </div> <!-- end masonry -->
+      </div> <!-- end col-full -->
+    </div> <!-- end works-content -->
+
+  </section> <!-- end s-works -->
+
+  <!-- clients
+    ================================================== -->
+  <section id="clients" class="s-clients">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Writers Toolbox</h3>
+        
       </div>
+    </div> <!-- end section-header -->
 
-    </main>
-    <!--/Main layout-->
+    <div class="row clients-outer" data-aos="fade-up">
+      <div class="col-full">
+        <div class="clients">
+          <a href="#0" title="" class="clients__slide"><i class="fab fa-html5 fa-9x orange-text"></i></a>
+          <a href="#0" title="" class="clients__slide"><i class="fab fa-css3-alt fa-9x"></i></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/js.svg" alt=""></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/ruby-seeklogo.com.svg" alt="ruby"></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/python-seeklogo.com.svg" alt="python"></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/vuejs-seeklogo.com.svg" alt="vuejs"></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/nodejs-seeklogo.com.svg" alt=""></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/github.svg" alt="github"></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/docker-seeklogo.com.svg" alt="docker"></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/codepen.svg" alt="github"></a>
+          <a href="#0" title="" class="clients__slide"><i class="fab fa-free-code-camp fa-7x black-text"></i></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/aws.svg" alt=""></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/sql.svg" alt=""></a>
+          <a href="#0" title="" class="clients__slide"><img src="images/Linux_Tux.svg" alt=""></a>
+        </div> <!-- end clients -->
+      </div> <!-- end col-full -->
+    </div> <!-- end clients-outer -->
 
-    <!--Footer-->
-    <footer class="page-footer text-center text-md-left pt-4">
+  </section> <!-- end s-clients -->
 
-      <!--Footer Links-->
-      <div class="container-fluid">
-        <div class="row">
 
-          <!--First column-->
-          <div class="col-md-3">
-            <h5 class="text-uppercase font-weight-bold mb-4 purple-text">Footer Content</h5>
-            <p>Here you can use rows and columns here to organize your footer content.</p>
-          </div>
-          <!--/.First column-->
+  <!-- contact
+    ================================================== -->
+  <section id="contact" class="s-contact">
 
-          <hr class="w-100 clearfix d-md-none">
+    <div class="overlay"></div>
+    <div class="contact__line"></div>
 
-          <!--Second column-->
-          <div class="col-md-2 mx-auto">
-            <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
-            <ul class="list-unstyled">
-              <li><a href="#!">Link 1</a></li>
-              <li><a href="#!">Link 2</a></li>
-              <li><a href="#!">Link 3</a></li>
-              <li><a href="#!">Link 4</a></li>
-            </ul>
-          </div>
-          <!--/.Second column-->
-
-          <hr class="w-100 clearfix d-md-none">
-
-          <!--Third column-->
-          <div class="col-md-2 mx-auto">
-            <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
-            <ul class="list-unstyled">
-              <li><a href="#!">Link 1</a></li>
-              <li><a href="#!">Link 2</a></li>
-              <li><a href="#!">Link 3</a></li>
-              <li><a href="#!">Link 4</a></li>
-            </ul>
-          </div>
-          <!--/.Third column-->
-
-          <hr class="w-100 clearfix d-md-none">
-
-          <!--Fourth column-->
-          <div class="col-md-2 mx-auto">
-            <h5 class="text-uppercase font-weight-bold mb-4">Links</h5>
-            <ul class="list-unstyled">
-              <li><a href="#!">Link 1</a></li>
-              <li><a href="#!">Link 2</a></li>
-              <li><a href="#!">Link 3</a></li>
-              <li><a href="#!">Link 4</a></li>
-            </ul>
-          </div>
-          <!--/.Fourth column-->
-
-        </div>
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Contact Me</h3>
+        <!-- <h1 class="display-2 display-2--light"></h1> -->
       </div>
-      <!--/.Footer Links-->
-
-      <hr>
-
-      <!--Call to action-->
-      <div class="call-to-action text-center my-4">
-        <ul class="list-unstyled list-inline">
-          <li class="list-inline-item">
-            <h5>Register for free</h5>
-          </li>
-          <li class="list-inline-item"><a href="" class="btn btn-primary">Sign up!</a></li>
-        </ul>
-      </div>
-      <!--/.Call to action-->
-
-      <hr>
-
-     <!--Social buttons-->
-    <div class="social-section text-center">
-      <ul class="list-unstyled list-inline">
-        <li class="list-inline-item"><a class="btn-floating btn-fb"><i class="fab fa-facebook-f"> </i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-tw"><i class="fab fa-twitter"> </i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-gplus"><i class="fab fa-google-plus-g"> </i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-li"><i class="fab fa-linkedin-in"> </i></a></li>
-        <li class="list-inline-item"><a class="btn-floating btn-git"><i class="fab fa-github"> </i></a></li>
-      </ul>
     </div>
-    <!--/.Social buttons-->
 
-      <!--Copyright-->
-      <div class="footer-copyright py-3 text-center">
-        <div class="container-fluid">
-          © 2018 Copyright: <a href="http://www.archangelliterature.com" target="_blank" class="text-secondary"> Arch
-            Angel Literature </a>
+    <div class="row contact-content" data-aos="fade-up">
 
+      <div class="contact-primary">
+
+        <h3 class="h6">Send Me A Message</h3>
+
+        <form name="contactForm" id="contactForm" action="https://formspree.io/cameron3579@gmail.com"
+          method="POST">
+          <fieldset>
+
+            <div class="form-field">
+              <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2"
+                required="" aria-required="true" class="full-width">
+            </div>
+            <div class="form-field">
+              <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required=""
+                aria-required="true" class="full-width">
+            </div>
+            <div class="form-field">
+              <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
+                class="full-width">
+            </div>
+            <div class="form-field">
+              <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50"
+                required="" aria-required="true" class="full-width"></textarea>
+            </div>
+            <div class="form-field">
+              <button class="full-width btn--primary">Submit</button>
+              <div class="submit-loader">
+                <div class="text-loader">Sending...</div>
+                <div class="s-loader">
+                  <div class="bounce1"></div>
+                  <div class="bounce2"></div>
+                  <div class="bounce3"></div>
+                </div>
+              </div>
+            </div>
+
+          </fieldset>
+        </form>
+
+        <!-- contact-warning -->
+        <div class="message-warning">
+          Something went wrong. Please try again.
+        </div>
+
+        <!-- contact-success -->
+        <div class="message-success">
+          Your message was sent, thank you!<br>
+        </div>
+
+      </div> <!-- end contact-primary -->
+
+      <div class="contact-secondary">
+        <div class="contact-info">
+
+          <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+          <div class="cinfo">
+            <h5>Where to Find Me</h5>
+            <p>
+              123 Bogus Address<br>
+              Bloomington, IN<br>
+              34521 US
+            </p>
+          </div>
+
+          <div class="cinfo">
+      
+          <ul class="contact-social">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-pinterest" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
+            </li>
+          </ul> <!-- end contact-social -->
+
+        </div> <!-- end contact-info -->
+      </div> <!-- end contact-secondary -->
+
+    </div> <!-- end contact-content -->
+
+  </section> <!-- end s-contact -->
+
+  <!-- footer
+    ================================================== -->
+  <footer>
+
+    <div class="row footer-bottom">
+
+      <div class="col-twelve">
+        <div class="copyright">
+          <span>© Copyright Bomber Designs 2018</span>
+          <span> <a href="#">Bomber Designs</a></span>
+        </div>
+
+        <div class="go-top">
+          <a class="smoothscroll" title="Back to Top" href="#top">
+            <!-- <i class="fas fa-arrow-up purple-text"></i> -->
+            <img src="images/hand-grenade.png" alt="">
+          </a>
         </div>
       </div>
-      <!--/.Copyright-->
 
-    </footer>
-    <!--/.Footer-->
+    </div> <!-- end footer-bottom -->
 
-        <!-- SCRIPTS -->
-        <!-- JQuery -->
-        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  </footer> <!-- end footer -->
 
-        <!-- Tooltips -->
-        <script type="text/javascript" src="js/popper.min.js"></script>
 
-        <!-- Bootstrap core JavaScript -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- photoswipe background
+    ================================================== -->
+  <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
-        <!-- MDB core JavaScript -->
-        <script type="text/javascript" src="js/mdb.min.js"></script>
-        <script>
-            // SideNav Initialization
-            $(".button-collapse").sideNav();
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
 
-            new WOW().init();
-        </script>
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
 
-  </body>
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+            title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button>
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button
+            class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button
+          class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div> <!-- end photoSwipe background -->
+
+  <!-- preloader
+    ================================================== -->
+  <div id="preloader">
+    <div id="loader">
+      <div class="line-scale-pulse-out">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Java Script
+    ================================================== -->
+  <script src="js/jquery-3.2.1.min.js" type="e1e9095c5ce694016821c45b-text/javascript"></script>
+  <script src="js/plugins.js" type="e1e9095c5ce694016821c45b-text/javascript"></script>
+  <script src="js/main.js" type="e1e9095c5ce694016821c45b-text/javascript"></script>
+  <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js"
+    data-cf-settings="e1e9095c5ce694016821c45b-|49" defer=""></script>
+</body>
+
 </html>
