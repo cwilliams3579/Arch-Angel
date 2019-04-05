@@ -1,0 +1,51 @@
+/* .footer-text {
+    font-family: 'Berkshire Swash',
+    cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white !important;
+    text-shadow: 1px 1px 0px purple,
+    4px 4px 0px rgba(0, 0, 0, 0.15);
+} */
+
+/* .header-text {
+    font-family: 'Berkshire Swash',
+    cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white !important;
+    text-shadow: 1px 1px 0px purple,
+    4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.bestsellers-text {
+    font-family: 'Berkshire Swash',
+    cursive;
+    /* font-size: 1.5rem; */
+    font-weight: 900;
+    color: black !important;
+    text-shadow: 1px 1px 0px purple,
+    4px 4px 0px rgba(0, 0, 0, 0.15);
+} */
+/* .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+    height: 140px !important;
+} */
+
+.ml2 {
+    font-family: 'Berkshire Swash',
+    cursive;
+    font-weight: 900;
+    font-size: 2em;
+    text-shadow: 1px 1px 0px purple,
+    4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+}
